@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface OnTaskDoneListener {
+@FunctionalInterface
+public interface OnTaskDoneListener {
+    void onDone(String result);
 }

@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface OnTaskErrorListener {
+@FunctionalInterface
+public interface OnTaskErrorListener {
+    void onError(String result);
 }
